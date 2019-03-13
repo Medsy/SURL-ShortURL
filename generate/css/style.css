@@ -1,0 +1,84 @@
+#page {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to top, #d65db1, #ed639d, #fa718b, #ff827b, #ff9671)!important;
+}
+
+#mainContainer {
+  font-family: 'Roboto', sans-serif;
+  color: #F5F5F5;
+  width: 720px;
+  height: 200px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%;
+  text-align: center;
+}
+
+.mainInput {
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 25px;
+  border: 3px solid #FFC75F;
+  padding: 20px;
+  height: 15px;
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+  transition: all 0.3s ease-in-out;
+}
+.mainInput:focus {
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+  border: 3px solid #2C73D2;
+  transition: all 0.3s ease-in-out;
+}
+.mainInput.error {
+  border: 3px solid red;
+  transition: all 0.3s ease-in-out;
+}
+
+.submitButton {
+  margin-bottom: 10px;
+  border-radius: 25px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #2C73D2;
+  color: #F5F5F5;
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+  transition: box-shadow 0.3s ease-in-out;
+}
+.submitButton:hover {
+  transition: box-shadow 0.3s ease-in-out;
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+  cursor: pointer;
+}
+
+
+h1{font-size: 44px}
+h2{font-size: 22px}
+h1, h2 {
+  color: white;
+  text-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+  letter-spacing: .25em;
+}
+input[type="text"] {
+  color: #000000;
+}
+
+header {margin-bottom: 10px;}
+
+.error {color: red;}
+
+.link, .link:visited {
+  color: inherit;
+}
+.copyLink, .copyLink:visited {
+  color: #2C73D2;
+  text-decoration: none;
+}
+
+
